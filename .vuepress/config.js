@@ -1,10 +1,10 @@
 module.exports = {
-    title: "VuePress Deploy",
+    title: "Shabia UX Works",
     locales: {
         '/': {
-            lang: 'de-DE',
-            title: 'VuePress Deploy',
-            description: 'Vuepress with Netlify Deploy Button'
+            lang: 'en-EN',
+            title: 'Shabia UX',
+            description: 'UX works and Goodies (coming soon)'
         }
     },
     head: [
@@ -35,6 +35,14 @@ module.exports = {
             {
                 text: 'NetlifyCMS Config Help',
                 link: '/docs/netlifycms-configuration.html',
+            },
+            {
+                text: 'Folio',
+                link: '/folio/',
+            },
+            {
+                text: 'About',
+                link: '/docs/about.html',
             }
 
         ]
